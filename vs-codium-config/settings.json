@@ -1,0 +1,103 @@
+{
+    // тема редактора
+    "workbench.colorTheme": "Horizon Bold",
+
+    // настройки шрифта
+    // Jetbrains Mono у меня установлен
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true, // "разрешаем лигатуры => >= =>",
+
+    // появление диалоговых окон на перенос и удаление файлов
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": false,
+
+    // поменяю курсор
+    "editor.cursorBlinking": "solid", // курсор не мигает
+    "editor.cursorStyle": "line", // как будет выглядеть курсор на строке
+    "editor.multiCursorModifier": "ctrlCmd", // на ctrl + клик мыши можно поставить несколько курсоров
+    
+    // работа с файлами
+
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+
+    // скрываем скроллбары
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+
+    // настройка рабочего пространства
+    "workbench.statusBar.visible": false, // убираем бар снизу
+    "editor.minimap.enabled": false, // убираем мини карту с кодом
+
+    "editor.overviewRulerBorder": false, // убираем границу у полосы с ошибками
+
+    "editor.hideCursorInOverviewRuler": true, // скрываем там же курсор
+
+    "breadcrumbs.enabled": false, // убираем путь файла
+
+    "workbench.activityBar.location": "hidden", // убрать поля сбоку
+
+    "workbench.editor.showTabs": "multiple", // отображение вкладок
+
+    "workbench.layoutControl.enabled": false, // скрываем layout управление
+
+    "window.titleBarStyle": "custom", // отображение границ окна (требуется restart)
+
+    "window.menuBarVisibility": "hidden", // скрываем меню
+
+    "editor.tabSize": 4, // настраиваем таб
+
+    "editor.detectIndentation": false, // изменяем флаг, чтобы табами делать отступы
+
+    "workbench.startupEditor": "none", // скрываем приветсвенное окно
+
+    // отключаем подсказки
+    "workbench.tips.enabled": false,
+
+    // не рендерим пробелы
+    "editor.renderWhitespace": "none",
+    
+    // скрываем ветки в редакторе
+    "editor.guides.indentation": false,
+
+    // скрываем ветки у дерева
+    "workbench.tree.renderIndentGuides": "none",
+
+    // отключаем обновление
+    "update.mode": "none",
+
+    // скрываем рекомендации по расширениям
+    "extensions.ignoreRecommendations": false,
+    "workbench.tree.enableStickyScroll": false,
+
+    // строка поиска
+    "window.title": "Codium",
+
+    // строка команд
+    "window.commandCenter": false,
+
+    // сркыть нумерацию строк
+    // "editor.lineNumbers": "off",
+
+    // скрыть кнопку для закрытия активной вкладки
+    "workbench.editor.tabActionCloseVisibility": false,
+
+    // скрыть подсказку при открытии новой вкладки
+    "workbench.editor.empty.hint": "hidden",
+
+    // скрыть иконки справа
+    "workbench.editor.editorActionsLocation": "hidden",
+
+    // полноэкранный режим
+    "window.restoreFullscreen": true,
+
+    "workbench.panel.opensMaximized": "always",
+
+    // 
+    // "workbench.panel.showLabels": false,
+
+    // отключить телеметрию
+    "telemetry.feedback.enabled": false
+
+}
