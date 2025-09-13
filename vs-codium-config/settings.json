@@ -8,6 +8,8 @@
     "editor.fontSize": 14,
     "editor.fontLigatures": true, // "разрешаем лигатуры => >= =>",
 
+
+
     // появление диалоговых окон на перенос и удаление файлов
     "explorer.confirmDelete": true,
     "explorer.confirmDragAndDrop": false,
@@ -72,12 +74,12 @@
     "workbench.tree.enableStickyScroll": false,
 
     // строка поиска
-    "window.title": "Codium",
+    "window.title": "tema",
 
     // строка команд
     "window.commandCenter": false,
 
-    // сркыть нумерацию строк
+    // скрыть нумерацию строк
     // "editor.lineNumbers": "off",
 
     // скрыть кнопку для закрытия активной вкладки
@@ -93,9 +95,6 @@
     "window.restoreFullscreen": true,
 
     "workbench.panel.opensMaximized": "always",
-
-    // 
-    // "workbench.panel.showLabels": false,
 
     // отключить телеметрию
     "telemetry.feedback.enabled": false
