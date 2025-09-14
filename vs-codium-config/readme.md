@@ -12,7 +12,7 @@
 - фоновые изображения задавать через `file protocol` (Пример: `file:///C:/Users/user/Desktop/file.jpg`)
 
 Было:
-![VS Codium Standart](img/vs-code-standart.png)
+![VS Codium Standart](img/vs-codium-standart.png)
 
 Стало:
 ![VS Codium Minimal](img/vs-codium-minimal.png)
