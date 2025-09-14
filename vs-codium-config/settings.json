@@ -3,24 +3,22 @@
     "workbench.colorTheme": "Horizon Bold",
 
     // настройки шрифта
-    // Jetbrains Mono у меня установлен
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 14,
-    "editor.fontLigatures": true, // "разрешаем лигатуры => >= =>",
-
-
+    // лигатуры
+    "editor.fontLigatures": true,
 
     // появление диалоговых окон на перенос и удаление файлов
     "explorer.confirmDelete": true,
     "explorer.confirmDragAndDrop": false,
 
-    // поменяю курсор
+    // редактирование курсора
     "editor.cursorBlinking": "solid", // курсор не мигает
     "editor.cursorStyle": "line", // как будет выглядеть курсор на строке
-    "editor.multiCursorModifier": "ctrlCmd", // на ctrl + клик мыши можно поставить несколько курсоров
-    
-    // работа с файлами
+    // ctrl + alt или ctrl + клик мыши = ставим несколько курсоров
+    "editor.multiCursorModifier": "ctrlCmd", 
 
+    // автосохранение файлов и добавление последней пустой строки
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
 
@@ -29,30 +27,46 @@
     "editor.scrollbar.vertical": "hidden",
 
     // настройка рабочего пространства
-    "workbench.statusBar.visible": false, // убираем бар снизу
-    "editor.minimap.enabled": false, // убираем мини карту с кодом
+    // убираем статус бар
+    "workbench.statusBar.visible": false,
+    // убрать активити бар
+    "workbench.activityBar.location": "hidden", 
 
-    "editor.overviewRulerBorder": false, // убираем границу у полосы с ошибками
+    // убираем мини-карту с кодом
+    "editor.minimap.enabled": false,
+    // убираем границу у полосы с ошибками
+    "editor.overviewRulerBorder": false, 
 
-    "editor.hideCursorInOverviewRuler": true, // скрываем там же курсор
+    // скрываем курсор
+    "editor.hideCursorInOverviewRuler": true,
 
-    "breadcrumbs.enabled": false, // убираем путь файла
+    // скрываем путь файла
+    "breadcrumbs.enabled": false,
 
-    "workbench.activityBar.location": "hidden", // убрать поля сбоку
+    // видимость вкладок
+    /* Можно заменить на:
+    - single - видна действующая вкладка
+    - none - скрыть поле вкладок
+    */ 
+    "workbench.editor.showTabs": "multiple",
 
-    "workbench.editor.showTabs": "multiple", // отображение вкладок
+    // скрываем layout управление
+    "workbench.layoutControl.enabled": false,
 
-    "workbench.layoutControl.enabled": false, // скрываем layout управление
+    // кастом бар (требуется restart)
+    "window.titleBarStyle": "custom",
 
-    "window.titleBarStyle": "custom", // отображение границ окна (требуется restart)
+    // скрыть меню действий
+    "window.menuBarVisibility": "hidden",
+    
+    // настройка таба 
+    "editor.tabSize": 4,
 
-    "window.menuBarVisibility": "hidden", // скрываем меню
+    // отступы - табы
+    "editor.detectIndentation": false,
 
-    "editor.tabSize": 4, // настраиваем таб
-
-    "editor.detectIndentation": false, // изменяем флаг, чтобы табами делать отступы
-
-    "workbench.startupEditor": "none", // скрываем приветсвенное окно
+    // скрываем приветсвенное окно
+    "workbench.startupEditor": "none",
 
     // отключаем подсказки
     "workbench.tips.enabled": false,
@@ -73,10 +87,10 @@
     "extensions.ignoreRecommendations": false,
     "workbench.tree.enableStickyScroll": false,
 
-    // строка поиска
-    "window.title": "tema",
+    // название окна
+    "window.title": "codium",
 
-    // строка команд
+    // скрываем строку команд
     "window.commandCenter": false,
 
     // скрыть нумерацию строк
@@ -94,9 +108,22 @@
     // полноэкранный режим
     "window.restoreFullscreen": true,
 
+    // открыть панель на весь экран
     "workbench.panel.opensMaximized": "always",
 
     // отключить телеметрию
-    "telemetry.feedback.enabled": false
+    "telemetry.feedback.enabled": false,
 
+    // включить фон
+    "background.enabled": true,
+
+    // даем фон панели
+    "background.panel": {
+        "images": ["file:///"],
+        "opacity": 0.2,
+        "size": "cover",
+        "position": "center",
+        "interval": 10,
+        "random": false
+    }
 }
