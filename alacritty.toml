@@ -1,0 +1,35 @@
+
+[general]
+import = [
+    "./themes/themes/tokyo_night.toml"
+]
+
+[terminal.shell]
+program = "powershell"
+args = ["-NoExit", "-Command", 
+    """
+    cls
+    function prompt { 'laptop> ' }
+    cd E://
+    """
+]
+
+[window]
+dimensions = { columns = 100, lines = 30 }
+padding = { x = 5, y = 20 }
+decorations = "None"
+opacity = 1.0
+position = { x = 450 , y = 250 }
+blur = true
+
+[font]
+normal = { family = "Jetbrains Mono", style = "Regular" }
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+thickness = 0.5
+
+[mouse]
+hide_when_typing = true
+
+
