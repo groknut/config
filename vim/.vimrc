@@ -1,33 +1,4 @@
-" === ДОПОЛНИТЕЛЬНЫЕ НАСТРОЙКИ ===
-set autoindent
-set smartindent
-set tabstop=4
-set shiftwidth=4
-set expandtab
 
-" Поиск
-set incsearch
-set hlsearch
-nnoremap <silent> <Esc> :nohlsearch<CR>
-
-" Автоопределение типов файлов
-filetype plugin on
-autocmd BufRead,BufNewFile *.cpp,*.c,*.h set filetype=cpp
-autocmd BufRead,BufNewFile *.py set filetype=python
-zaharselakov@MacBook-Air-Zahar desktop % copy
-zsh: command not found: copy
-zaharselakov@MacBook-Air-Zahar desktop % clip
-zsh: command not found: clip
-zaharselakov@MacBook-Air-Zahar desktop % cp
-usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
-       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
-zaharselakov@MacBook-Air-Zahar desktop % cd config   
-zaharselakov@MacBook-Air-Zahar config % cat ~/.vimrc > .vimrc
-zaharselakov@MacBook-Air-Zahar config % ls
-alacritty.toml		vimrc.txt		vs-codium-config
-zaharselakov@MacBook-Air-Zahar config % clear
-
-zaharselakov@MacBook-Air-Zahar config % cat ~/.vimrc         
 " === МЕНЕДЖЕР ПЛАГИНОВ ===
 call plug#begin('~/.vim/plugged')
 
